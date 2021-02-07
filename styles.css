@@ -1,21 +1,27 @@
-*{
-    
-}
 body{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Move{
 
+    margin: 0px 0px 0px 0px ;
     background-color: aquamarine;
+    height: 200px;
+    width: 200px;
 }
-p{
-    text-align: right;
-font-family: Roboto;
-color: #000000;
+.right{
+    position: absolute;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: coral;
 }
-.bold{
-    font-weight:bold;
-}
-.italic{
-    font-style:italic;
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: red;
+.position{
+    position: relative;
+margin: 0px 0px;
+    background-color: rgb(142, 62, 158);
+    height: 400px;
+    width: 400px;
 }
